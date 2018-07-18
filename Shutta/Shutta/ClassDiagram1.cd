@@ -1,2 +1,46 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ClassDiagram /> 
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Shutta.Card">
+    <Position X="3.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Card.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shutta.Player">
+    <Position X="5.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shutta.Diller">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIQAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Diller.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shutta.Board">
+    <Position X="9.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Board.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shutta.Scorer">
+    <Position X="5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Scorer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shutta.Program" Collapsed="true">
+    <Position X="7.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>
