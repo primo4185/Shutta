@@ -7,8 +7,9 @@ namespace Shutta
 {
     public class Diller
     {
-        public Card[] Cards;
-        List<int> kwangNumbers = new List<int> { 1, 3, 8 };
+        //public Card[] Cards;
+        private List<Card> _cards = new List<Card>();
+        List<int> _kwangNumers = new List<int> { 1, 3, 8 };
         public void Shuffle()
         {
             for (int i = 0; i < 10; i++)
@@ -20,16 +21,28 @@ namespace Shutta
                     card.isKwang = false;
                     if(j == 0)
                     {          
-                        if (kwangNumbers.Contains(card.Number))
+                        if (_kwangNumers.Contains(card.Number))
                             card.isKwang = true;
+
+
+                        //Cards[i + j * 2] = card;
+                        _cards.Add(card);
                     }
+
+                    _cards.OrderBy(x => Guid.NewGuid()).ToList(); //랜덤 정렬
+                    _index = 0;
                 }
             }
 
         }
-        public Card GetCard()
+
+        private int _index = 0;
+            public Card GetCard()
         {
-            return null;
+            return _cards[_index++];
+            //Card card = Cards[_index];
+            //_index +;
+            //return card;
         }
     }
 }

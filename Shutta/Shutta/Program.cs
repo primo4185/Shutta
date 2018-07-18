@@ -32,6 +32,7 @@ namespace Shutta
 
                 for (int i = 0; i < players.Count; i++)
                 {
+                    players[i].Cards.Clear();
                     for (int j = 0; j < 2; j++)
                     {
                         Card card = diller.GetCard();
